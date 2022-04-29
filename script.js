@@ -32,7 +32,7 @@ var scroll = new SmoothScroll('a[href*="#"]', {
             'Accept': 'application/json'
         }
       }).then(response => {
-        status.innerHTML = "Thanks!";
+        status.innerHTML = "Thanks for choosing Genius Tutors!. You'll be contacted shortly.";
         status.classList.add('success');
         form.reset()
       }).catch(error => {
@@ -53,7 +53,7 @@ var scroll = new SmoothScroll('a[href*="#"]', {
             'Accept': 'application/json'
         }
       }).then(response => {
-        contact.innerHTML = "Thanks!";
+        contact.innerHTML = "Thanks for contacting Genius Tutors!";
         contact.classList.add('success');
         contactForm.reset()
       }).catch(error => {
