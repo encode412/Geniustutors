@@ -666,6 +666,9 @@ form .user-details .input-box .details {
   .negate-logo {
     margin-left: -8rem;
   }
+  .heading-text {
+    font-size: 4rem !important;
+  }
   .navbar-brand img {
     width: 15rem;
   }
