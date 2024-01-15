@@ -37,7 +37,7 @@ html {
   font-weight: 700;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
-  height: 12%;
+  height: 8%;
   background: rgba(0, 0, 0, 0.6) !important;
 }
 .navbar-brand img {
@@ -132,7 +132,7 @@ html {
 .intro .heading-1 {
   margin-top: 8%;
   letter-spacing: 0.2rem;
-  color: #142850;
+  color: #6c6684 !important;
   font-size: 2.3rem;
 }
 
@@ -170,6 +170,16 @@ html {
   margin: auto;
   text-align: center;
   padding-top: 10rem;
+}
+.heading-text {
+  letter-spacing: normal !important;
+}
+.header-title {
+  color: #142850;
+  font-size: 4rem;
+}
+.negate-logo {
+  margin-left: -1rem;
 }
 .roww {
   margin-top: 5%;
@@ -280,6 +290,7 @@ h5 {
 }
 .register-container .heading-1 {
   margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 .register-container form .user-details {
@@ -338,6 +349,9 @@ form .user-details .input-box .details {
   width: 75%;
   margin: 1.5rem auto;
   padding-top: 2rem;
+}
+.row {
+  padding: 2rem !important;
 }
 .narrow h1 {
   font-size: 2.4rem;
@@ -433,6 +447,16 @@ form .user-details .input-box .details {
   color: #777;
   font-weight: 700;
 }
+.section3-header {
+  font-size: 2.5rem !important;
+  /* color: #13389e; */
+}
+.section3-sub {
+  font-size: 3rem !important;
+  /* color: #13389e; */
+  text-transform: uppercase;
+}
+
 
 .location {
   width: 80%;
@@ -573,6 +597,7 @@ form .user-details .input-box .details {
 .footer .credit {
   text-align: center;
   padding: 1rem 0.5rem;
+  margin-bottom: 0;
   margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: normal;
@@ -633,7 +658,14 @@ form .user-details .input-box .details {
   .navbar {
     height: 7%;
   }
+  .header-title {
+ 
+    font-size: 3rem;
+  }
 
+  .negate-logo {
+    margin-left: -8rem;
+  }
   .navbar-brand img {
     width: 15rem;
   }
@@ -653,7 +685,16 @@ form .user-details .input-box .details {
     color: #142850;
     font-size: 1.5rem;
   }
-
+  .test-container {
+   
+    margin-top: 0;
+  }
+.section3-header{
+  font-size: 2rem !important;
+}
+.section3-sub {
+  font-size: 2rem !important;
+}
   .intro .heading-2 {
     margin-bottom: 3%;
     font-size: 4rem;
@@ -669,7 +710,7 @@ form .user-details .input-box .details {
     width: 100%;
     margin-bottom: 10rem;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
     display: block;
   }
 
@@ -701,6 +742,7 @@ form .user-details .input-box .details {
     margin: auto;
     width: 100%;
     font-size: 1.9rem;
+    color: #6c6684;
   }
 
   .location {
